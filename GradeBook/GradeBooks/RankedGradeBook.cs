@@ -7,7 +7,7 @@ namespace GradeBook.GradeBooks
 {
 	public class RankedGradeBook : BaseGradeBook
 	{
-		public RankedGradeBook(string name) : base(name)
+		public RankedGradeBook(string name) : base(name) 
 		{
 			Type = Enums.GradeBookType.Ranked;
 		}
@@ -45,6 +45,7 @@ namespace GradeBook.GradeBooks
 				return 'F';
 			}
 		}
+<<<<<<< HEAD
 		public override void CalculateStatistics()
 		{
 			if (Students.Count < 5)
@@ -68,4 +69,7 @@ namespace GradeBook.GradeBooks
 			}
 		}
 	}
+=======
+	} 
+>>>>>>> parent of cea391c (Override `RankedGradeBook`'s `CalculateStudentStatistics` method (part 2))
 }
